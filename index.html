@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+
+    <meta charset="utf-8">
+    <title>BytePusher Emulator</title>
+
+    <meta name="author" content="Dominik Adam">
+
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body onkeydown="myKeyChange(event, 1)" onkeyup="myKeyChange(event, 0)">
+
+    <br/><br/><br/>
+
+    <h1>BytePusher Emulator</h1>
+
+    <br/><br/><br/>
+
+    <canvas id="canv" width="256" height="256"></canvas>
+
+    <br/><br/><br/>
+
+    <input type="button" value="Select the ROM file" id="file-selector"/>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
